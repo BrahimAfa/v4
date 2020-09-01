@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 import mixins from './mixins';
 import media from './media';
-
+import { theme } from '@styles';
+const { colors } = theme;
 const Main = styled.main`
   ${mixins.sidePadding};
   margin: 0 auto;
+  background-color: ${colors.darkestNavy};
   width: 100%;
   max-width: 1600px;
   min-height: 100vh;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   ${media.desktop`
     padding-top: 200px;
     padding-bottom: 200px;

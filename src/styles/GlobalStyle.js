@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: ${colors.navy};
+    background-color: ${colors.darkestNavy};
     color: ${colors.slate};
     line-height: 1.3;
     font-family: ${fonts.Calibre};
@@ -46,6 +46,19 @@ const GlobalStyle = createGlobalStyle`
         pointer-events: none;
         user-select: none;
       }
+    }
+    &::-webkit-scrollbar {
+      width:5px;
+      height:5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: ${colors.green};
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #BDBABC; 
     }
   }
 
