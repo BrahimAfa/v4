@@ -1,12 +1,11 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - Dec 2016'
+date: '2020-06-01'
+title: 'Software Engineer'
+company: 'Storeino'
+location: 'Agadir, Morocco'
+range: 'Apr - Curren'
 url: 'https://starry.com/'
 ---
 
-- Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station
-- Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry’s iOS and Android mobile apps
+- Worked in a team of three back-end developers to build a marketing website and e-commerce platform for [Storino](https://storino.com), an ambitious startup originating from Morocco
+- Proposed scalable and architecture solutions to issues identified with the application

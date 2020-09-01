@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
-name: 'Brittany Chiang'
+name: 'Brahim Afassy'
 subtitle: 'I build things for the web.'
 contactText: 'Get In Touch'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+Afassy Brahim is a software engineer based in Morocco specializing in developing high-quality websites and applications (mobile, desktop).
