@@ -8,13 +8,23 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
+  height: 100vh;
+  background-color: ${colors.darkestNavy};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
   ${media.tablet`padding-top: 150px;`};
   div {
     width: 100%;
   }
+`;
+const StyledDiv = styled.div`
+  position: relative;
+  bottom: 10%;
+  left: 10%;
+  ${media.thone`
+    bottom: auto;
+    left: auto;
+  `};
 `;
 const StyledOverline = styled.h1`
   color: ${colors.green};
@@ -91,14 +101,16 @@ const Hero = ({ data }) => {
 
   return (
     <StyledContainer>
-      <TransitionGroup component={null}>
-        {isMounted &&
-          items.map((item, i) => (
-            <CSSTransition key={i} classNames="fadeup" timeout={3000}>
-              {item}
-            </CSSTransition>
-          ))}
-      </TransitionGroup>
+      <StyledDiv>
+        <TransitionGroup component={null}>
+          {isMounted &&
+            items.map((item, i) => (
+              <CSSTransition key={i} classNames="fadeup" timeout={3000}>
+                {item}
+              </CSSTransition>
+            ))}
+        </TransitionGroup>
+      </StyledDiv>
     </StyledContainer>
   );
 };
