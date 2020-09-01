@@ -10,6 +10,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
+  background-color: ${colors.darkNavy};
   flex-direction: column;
   align-items: flex-start;
 `;

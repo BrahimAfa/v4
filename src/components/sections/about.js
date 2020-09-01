@@ -9,6 +9,8 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
+  height: 100vh;
+  background-color: ${colors.darkNavy};
 `;
 const StyledFlexContainer = styled.div`
   ${mixins.flexBetween};

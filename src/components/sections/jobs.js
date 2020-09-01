@@ -8,13 +8,19 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
-  max-width: 700px;
+  height: 100vh;
+
+  background-color: ${colors.darkestNavy};
 `;
 const StyledTabs = styled.div`
+  width: 70%;
   display: flex;
   align-items: flex-start;
   position: relative;
+  left: 10%;
   ${media.thone`
+    top: auto;
+    left: auto;
     display: block;
   `};
 `;
@@ -29,7 +35,7 @@ const StyledTabList = styled.ul`
 
   ${media.thone`
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     margin-bottom: 30px;
     width: calc(100% + 100px);
     margin-left: -50px;
